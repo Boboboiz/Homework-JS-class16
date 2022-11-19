@@ -1,21 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>JS-homework-class16</h1>
-<form action="">
-    <input type="text" placeholder="số thứ 1" id="num1" />
-    <input type="text" placeholder="số thứ 2" id="num2 " />
-    <button type="button" onclick="handleCalSum()"> Sum</button>
-</form>
+    <form action="">
+      <input type="text" placeholder="số thứ 1" id="num1" />
+      <input type="text" placeholder="số thứ 2" id="num2" />
+      <button type="button" onclick="handleCalSum()">Sum</button>
+    </form>
     <span id="sum"></span>
 
+    <hr />
+    <form action="">
+        <input type="text" placeholder="nhập vào số tính giai thừa" id="number">
+        <button type="button" onclick="handleCal()"> Cal</button>
+    </form>
+    <span id="factorial"></span>
 
+    <hr />
+
+    <button type="button" onclick="handleRenderDiv()">In div</button>
+    <div id="divRender"></div>
+    
+    <hr />
+    <form action="">
+      <input type="text" placeholder="nhập vào số" id="number3" />
+      <button type="button" onclick="handleRenderNumber()" > In số</button>
+    </form>
+    <span id="renderNumber"></span>
+    
     <script src="./index.js"></script>
-</body>
+  </body>
 </html>
